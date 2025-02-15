@@ -1,0 +1,6 @@
+{
+    "version": 2,
+    "name": "audio",
+    "builds": [{ "src": "server.js", "use": "@vercel/node" }],
+    "routes": [{ "src": "/stream", "dest": "/server.js" }]
+}
